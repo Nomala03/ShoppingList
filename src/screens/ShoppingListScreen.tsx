@@ -22,7 +22,7 @@ export default function ShoppingListScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🛒 Shopping List</Text>
+      <Text style={styles.title}> Shopping List</Text>
 
       <AddItem />
 
@@ -44,12 +44,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
-    padding: 16,
+    padding: 16, 
   },
   title: {
-    fontSize: 28,
-    fontWeight: "700",
-    marginBottom: 16,
+    fontSize: 24,
+    fontWeight: "600",
+    marginTop: 24,
+    marginBottom: 18,
     color: colors.text,
   },
   empty: {

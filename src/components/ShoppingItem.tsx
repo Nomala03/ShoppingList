@@ -21,7 +21,7 @@ export default function ShoppingItemComponent({
   return (
     <View style={styles.card}>
       <View style={styles.left}>
-        <Text
+        <Text 
           style={[
             styles.name,
             item.purchased && styles.purchasedText,
